@@ -39,8 +39,8 @@ CREATE TABLE customer_review (
 
 -- 5- Ajoutez 2 critiques de films. Assurez-vous de les lier à des objets valides dans les autres tables.
 INSERT INTO customer_review (film_id, language_id, title, score, review_text)
-VALUES (1, 1, 'Great Film!', 9, 'I loved this movie. The acting was amazing and the storyline was gripping.');
+VALUES (1, 1, 'Anaconda', 9, 'Un gros serpent.');
 
 INSERT INTO customer_review (film_id, language_id, title, score, review_text)
-VALUES (2, 2, 'Terrible Movie', 3, 'I did not like this movie at all. The plot was confusing and the acting was terrible.');
+VALUES (2, 2, 'Karate kild', 3, 'Un bn film de karate');
 
