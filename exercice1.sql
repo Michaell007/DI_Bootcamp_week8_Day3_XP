@@ -1,4 +1,4 @@
--- 1- Obtenez une liste de toutes les langues du film
+-- 1- Obtenez une liste de toutes les langues du film 
 SELECT name FROM language;
 
 --2- Obtenez une liste de tous les films joints avec leurs langues - sélectionnez les détails suivants
