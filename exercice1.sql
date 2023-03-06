@@ -2,7 +2,7 @@
 SELECT name FROM language;
 
 --2- Obtenez une liste de tous les films joints avec leurs langues - sélectionnez les détails suivants
--- 2.1- Obtenez tous les films, même s'ils n'ont pas de langues
+-- 2.1- Obtenez tous les films, même s'ils n'ont pas de langues 
 SELECT film.title, film.description, language.name
 FROM film
 LEFT JOIN language ON film.language_id = language.language_id;
